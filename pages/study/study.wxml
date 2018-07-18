@@ -1,0 +1,60 @@
+<view class='topTabSwiper'>
+  <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>书籍</view>
+  <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>图片</view>
+  <view class='tab  {{currentData == 2 ? "tabBorer" : ""}}' data-current="2" bindtap='checkCurrent'>视频</view>
+</view>
+
+
+<swiper current="{{currentData}}" class='swiper' style="height:600px;" duration="300" bindchange="bindchange">
+
+  <!--书籍  -->
+  <swiper-item>
+    <view class='swiper_con'>
+
+      <view class='book'>
+
+        <view class='bookList'>
+          <image src='../../images/2.jpg'></image>
+          <text>黄帝内经</text>
+        </view>
+         <view class='bookList'>
+          <image src='../../images/1.jpg'></image>
+          <text>黄帝内经</text>
+        </view>
+         <view class='bookList'>
+          <image src='../../images/2.jpg'></image>
+          <text>黄帝内经</text>
+        </view>
+
+
+      </view>
+
+ <view class='book'>
+
+        <view class='bookList'>
+          <image src='../../images/1.jpg'></image>
+          <text>黄帝内经</text>
+        </view>
+         <view class='bookList'>
+          <image src='../../images/2.jpg'></image>
+          <text>黄帝内经</text>
+        </view>
+         <view class='bookList'>
+          <image src='../../images/1.jpg'></image>
+          <text>黄帝内经</text>
+        </view>
+
+
+      </view>
+
+    </view>
+  </swiper-item>
+  <!--图片  -->
+  <swiper-item>
+    <view class='swiper_con'>图片</view>
+  </swiper-item>
+  <!--视频  -->
+  <swiper-item>
+    <view class='swiper_con'>视频</view>
+  </swiper-item>
+</swiper>

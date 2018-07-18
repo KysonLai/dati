@@ -1,0 +1,62 @@
+<view class="box">
+  <!-- 标题 -->
+  <text class="title">商店</text>
+  <!-- tap -->
+  <view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>药材</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>道具</view>
+  </view>
+  <swiper current="{{currentData}}" class='swiper' duration="300" bindchange="bindchange">
+   <!-- 药材 -->
+   <swiper-item>
+    <view class='swiper_con'>
+      <!-- 搜索框 -->
+      <view class="search">
+        <input class="search_input" type="text" confirm-type="search"/>
+      </view>
+      <!-- 图片 -->
+      <view class="drug_pics">
+        <view class="drug_pic_item">
+            <image src="../../images/1.jpg"></image>
+            <text class="drug_pic_name">陈皮</text>
+        </view>
+        <view class="drug_pic_item">
+            <image src="../../images/1.jpg"></image>
+            <text class="drug_pic_name">陈皮</text>
+        </view>
+      </view>
+    </view>
+   </swiper-item>
+   <!-- 道具 -->
+   <swiper-item>
+    <view class='swiper_con'>
+      <view class="item_pics">
+      <view class="item_pic_item">
+          <image src="../../images/1.jpg"></image>
+          <view class="item_pic_info">
+            <text class="item_pic_name">延时卡</text>
+            <image class="item_pic_sign" src="../../images/store/credit.png"></image>
+            <text class="item_pic_cost">200</text>
+          </view>
+      </view>
+      <view class="item_pic_item">
+          <image src="../../images/1.jpg"></image>
+          <view class="item_pic_info">
+            <text class="item_pic_name">延时卡</text>
+            <image class="item_pic_sign" src="../../images/store/credit.png"></image>
+            <text class="item_pic_cost">200</text>
+          </view>
+      </view>
+  </view>
+    </view>
+  </swiper-item>
+  </swiper>
+  <!-- 积分数 -->
+  <view class="info">
+    <image class="pic_credit" src="../../images/store/credit.png"></image>
+    <view class="info_box">
+      <text class="info_number">2000</text>
+      <image class="pic_credit" src="../../images/store/plus.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,70 @@
+Page{
+
+  font-size: 30rpx;
+  font-family: kaiti;
+}
+.tab {
+  float: left;
+  width: 33.3333%;
+  text-align: center;
+  padding: 10rpx 0;
+}
+
+.topTabSwiper {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tabBorer {
+  border-bottom: 1px solid #2DC799;
+  color: #2DC799;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper_con {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 40rpx 0;
+  
+}
+
+
+/*书籍  */
+
+.book{
+  width: 90%;
+  
+  margin: 0 auto;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30rpx;
+ 
+}
+.bookList{
+  width: 33.3%;
+}
+.bookList image{
+  
+  width: 150rpx;
+  height: 200rpx;
+  box-shadow: 2px 0px #ccc;
+
+}
+.bookList text{
+  display: block;
+  font-size: 25rpx;
+  font-family: kaiti;
+}

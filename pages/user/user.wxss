@@ -1,0 +1,47 @@
+.title {
+  color: #000;
+  font-size: 50rpx;
+  width: 200rpx;
+  margin: 20rpx auto;
+  font-family: kaiti;
+  display: block;
+}
+
+.box {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 22%;
+  height: 200rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.items {
+  width: 180rpx;
+  height: 180rpx;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.items>image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.items>text {
+  position: absolute;
+  bottom: 2rpx;
+  right: 5rpx;
+  font-size: 24rpx;
+}

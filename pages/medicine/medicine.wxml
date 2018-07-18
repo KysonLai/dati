@@ -1,0 +1,14 @@
+<!-- 头部 -->
+<header></header>
+<!-- 选项 -->
+<view class="select">
+  <checkbox-group bindchange="checkboxChange">
+    <label class="checkbox {{item.checked?'checked':''}}" wx:key="value" wx:for="{{items}}">
+      <view>
+        <image src="../../images/1.jpg"></image>
+        <text class="cost">名誉值：100</text>
+      </view>
+      <checkbox value="{{item.value}}" checked="{{item.checked}}" color="{{checkbox.color}}"/>{{item.value}}
+    </label>
+  </checkbox-group> 
+</view>

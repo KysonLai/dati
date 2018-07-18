@@ -1,0 +1,148 @@
+Page{
+  font-family: kaiti;
+  
+}
+.header {
+  width:95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  
+  z-index: 999;
+  position: relative;
+  margin-bottom: 200rpx;
+
+}
+.header .avatar1,.avatar2 {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 3px solid #2DC799;
+  position: absolute;
+  top: 20rpx;
+  
+}
+.avatar1{
+
+  left: 50rpx;
+}
+.avatar2{
+  right: 50rpx;
+  
+}
+.clock{
+
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 30rpx;
+  left: 50%;
+  margin-left: -16px;
+  
+
+}
+
+
+.text1 {
+ position: absolute;
+ top: 40rpx;
+ left: 180rpx;
+  font-size: 24rpx;
+  font-family: songti;
+ 
+}
+.text2 {
+ position: absolute;
+ top: 40rpx;
+ right: 180rpx;
+  font-size: 24rpx;
+  font-family: songti;
+  
+}
+.count{
+  position: absolute;
+ top: 100rpx;
+ left:50%;
+ font-size: 30rpx;
+ width: 32px;
+ margin-left: -16px;
+text-align: center;
+}
+.score1{
+
+  position: absolute;
+  top: 88rpx;
+  left: 200rpx;
+  color: red;
+}
+.score2{
+
+  position: absolute;
+  top: 88rpx;
+  right: 200rpx;
+  color: blue;
+}
+/*题目  */
+.center{
+  width: 95%;
+  height: 600rpx;
+ 
+  margin: 40rpx auto;
+  
+}
+.question{
+display: flex;
+justify-content: center;
+font-weight: bold;
+}
+.choose{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+
+}
+.choose text{
+  margin-top: 30rpx;
+  background: #2DC799;
+  width: 300rpx;
+  text-align: center;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #ffffff;
+  border-radius: 5%;
+  font-weight: bold;
+}
+.arrow{
+  display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 60rpx;
+}
+.left{
+
+  width: 32px;
+  height: 32px;
+  margin-right: 100rpx;
+
+}
+.next{
+   width: 32px;
+  height: 32px;
+}
+.tools{
+  width: 95%;
+  height: 100px;
+ 
+  display: flex;
+  align-items: center;
+justify-content: center;
+}
+.tools image{
+  width: 32px;
+  height: 32px;
+ 
+  margin-left: 30rpx;
+}

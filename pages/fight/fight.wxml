@@ -1,0 +1,32 @@
+<view class="header">
+  <image src='../../images/1.jpg' class='avatar'></image>
+  <text class='text'>漫画 </text>
+  <image src='../../images/clock.png' class='clock'></image>
+  <text class='count'>10s</text>
+</view>
+
+<!--题目区域  -->
+<view class='center'>
+  <text class='question'>1、最宜治疗血淤头疼的药物是</text>
+
+<!--选项  -->
+  <view class='choose'>
+    <text>A.天麻</text>
+    <text>B.羌活</text>
+    <text>C.吴茱萸</text>
+    <text>D.蔓荆子</text>
+    <text>E.川穹</text>
+  </view>
+  <!--上/下一题  -->
+ <view class='arrow'>
+ <image src='../../images/left.png' class='left'></image>
+ <image src='../../images/next.png' class='next'></image>
+ </view>
+<view class='tools'>
+
+<image src='../../images/tools/star.png'></image>
+<image src='../../images/tools/skip.png'></image>
+<image src='../../images/tools/yes.png'></image>
+</view>
+
+</view>

@@ -1,0 +1,39 @@
+/* pages/rank/rank.wxss */
+/* tap */
+.tab {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding: 10rpx 0;
+}
+.topTabSwiper {
+  margin-top: 20rpx;
+  border-bottom: 1px solid #ccc;
+  zoom: 1;
+}
+.topTabSwiper:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.tabBorer {
+  border-bottom: 1px solid #2DC799;
+  color: #2DC799;
+}
+.swiper {
+  width: 100%;
+  height:600rpx;
+}
+.swiper_con {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 40rpx 0;
+}
+/* 排行 */
+.rank_item{
+    display: flex;
+    margin: 20rpx; 
+    height: 150rpx;
+    justify-content: space-around;
+}

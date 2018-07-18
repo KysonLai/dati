@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/challenge/challenge",
+      "pages/fight/fight",  
+    "pages/user/user",  
+    "pages/study/study",  
+    "pages/medicine/medicine",
+    "pages/store/store",   
+    "pages/rank/rank",    
+  
+   
+    "pages/welcome/welcome"
+  ],
+  "tabBar": {
+    "borderStyle": "dark",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排行榜",
+        "iconPath": "images/tab/rank.png",
+        "selectedIconPath": "images/tab/rank1.png"
+      },
+      {
+        "pagePath": "pages/medicine/medicine",
+        "text": "药店",
+        "iconPath": "images/tab/medicine.png",
+        "selectedIconPath": "images/tab/medicine1.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab/index.png",
+        "selectedIconPath": "images/tab/index1.png"
+      },
+      {
+        "pagePath": "pages/store/store",
+        "text": "商店",
+        "iconPath": "images/tab/store.png",
+        "selectedIconPath": "images/tab/store1.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "物资",
+        "iconPath": "images/tab/user.png",
+        "selectedIconPath": "images/tab/user1.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#2DC799",
+    "navigationBarTitleText": "中药答题",
+    "navigationBarTextStyle": "white"
+  }
+}

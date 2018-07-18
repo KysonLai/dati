@@ -1,0 +1,62 @@
+<!--pages/rank/rank.wxml-->
+  <!-- 头部 -->
+  <header></header>
+  <!-- tap -->
+  <view class='topTabSwiper'>
+    <view class='tab  {{currentData == 0 ? "tabBorer" : ""}}' data-current="0" bindtap='checkCurrent'>等级</view>
+    <view class='tab  {{currentData == 1 ? "tabBorer" : ""}}' data-current="1" bindtap='checkCurrent'>荣誉值</view>
+  </view>
+  <swiper current="{{currentData}}" class='swiper' duration="300" bindchange="bindchange">
+    <!-- 等级 -->
+    <swiper-item>
+      <view class='swiper_con'>
+        <view class="rank">
+          <view class="rank_item">
+              <image src='../../images/1.jpg'></image>
+              <text>昵称：</text>
+              <text>经验值：</text>
+              <text>等级：</text>
+          </view>
+          <view class="rank_item">
+              <image src='../../images/1.jpg'></image>
+              <text>昵称：</text>
+              <text>经验值：</text>
+              <text>等级：</text>
+          </view>
+          <view class="rank_item">
+              <image src='../../images/1.jpg'></image>
+              <text>昵称：</text>
+              <text>经验值：</text>
+              <text>等级：</text>
+          </view>
+        </view>
+      </view>
+    </swiper-item>
+    <!-- 荣誉值 -->
+    <swiper-item>
+      <view class='swiper_con'>
+        <view class="rank">
+          <view class="rank_item">
+              <image src='../../images/1.jpg'></image>
+              <text>昵称：</text>
+              <text>经验值：</text>
+              <text>等级：</text>
+          </view>
+          <view class="rank_item">
+              <image src='../../images/1.jpg'></image>
+              <text>昵称：</text>
+              <text>经验值：</text>
+              <text>等级：</text>
+          </view>
+          <view class="rank_item">
+              <image src='../../images/1.jpg'></image>
+              <text>昵称：</text>
+              <text>经验值：</text>
+              <text>等级：</text>
+          </view>
+         </view>
+      </view>
+    </swiper-item>
+  </swiper>
+  
+

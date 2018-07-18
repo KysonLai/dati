@@ -1,0 +1,21 @@
+/* pages/medicine/medicine.wxss */
+/* 选项 */
+.select{
+  margin-top: 35rpx;
+  margin-left: 50rpx; 
+  display:flex;
+  float: left;
+  justify-content:center; 
+}
+.cost{
+  position: relative;
+  top: 70rpx;
+  float: right;
+}
+.checkbox{
+  display: block;
+  margin-top: 20rpx;
+}
+.checked{
+  color: #2DC799;
+}
